@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.10" multi-file="no" uid="simpb4e9fa870c904c04bc8cac05a52232ca" creation-date="02/23/2024 08:28:04">
+  <meta>
+    <name>(Project)</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="template-parameter" type="Template Parameter" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>25</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment" type="Comment" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>10</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>46</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-92fe9a96774540b6a73ef84f51492c18" name="" task-id-sequence="0">
+    <working-schedule uid="ws-8b33f762822849b9b87625bdb8849443" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-409462fd8d574c729765c751066a45cf" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-40ec8afe0d144f72b43f4c00bc2eb2df" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="(Enum Especialidades)" name="(Enum Especialidades)" />
+        <type id="(Enum Tipo Sangre)" name="(Enum Tipo Sangre)" />
+        <type id="(Enum Tipo identificacion)" name="(Enum Tipo identificacion)" />
+      </types>
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p80ded9bed4c34c18bbf266ed23acb997_890520956" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>02/23/2024 08:28:05</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p4869693ec93540a8b1ddf08523a0a4b1_209348954" name="ClassDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="0,94">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>02/23/2024 08:28:05</creation-date>
+          <change-date>03/01/2024 10:40:06</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="63269f4f92d441b8b1cd0336ce2cf982" cid="GNR001" type="generalization" owner="1f06f90a01b742b8a0179126c2f0fbc3" creation-date="03/01/2024 08:23:40" from="e210a7826fa9409ab6bee943db5a1ce8" to="af826faa93e343a08e0990c96d0bee88" visibility="package" />
+          <item id="6c26fe7fa28a4a2090e6b1b6cce9c914" cid="C005" type="class" name="Enfermero" owner="1f06f90a01b742b8a0179126c2f0fbc3" creation-date="03/01/2024 10:33:14">
+            <owned-items />
+            <attributes>
+              <attribute id="ab1d2d6aa957e45fb9c22436a19c2063c694" cid="PROP023" name="procedimientos" creation-date="03/01/2024 10:33:23" property-ref="8727e7a10d8e47dcb65256a906b936f9" />
+            </attributes>
+            <operations>
+              <operation id="o0a6ef8bfe9be4fd99a660b9e1ea28560807" cid="OP007" name="addProcedure" creation-date="03/01/2024 10:35:07" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="28e1b2a1c7024da7a98383b7c850cc7c" cid="PROP022" type="property" name="factorRH" owner="6a8958e767b145a185b03abf30163871" creation-date="03/01/2024 08:39:35" visibility="private">
+            <structural-feature type="Char" type-id="Uml.Char" />
+          </item>
+          <item id="50b0b132aed4486094ba42b8a73a31e8" cid="CMT001" type="comment" owner="1f06f90a01b742b8a0179126c2f0fbc3" creation-date="03/01/2024 08:24:52">
+            <comment>Generalizacon: 
+-"es de tipo X"
+-"se clasifica en"
+-"pertenece al tipo"
+-"se divide en"</comment>
+          </item>
+          <item id="e210a7826fa9409ab6bee943db5a1ce8" cid="C002" type="class" name="Medico" owner="1f06f90a01b742b8a0179126c2f0fbc3" creator="" creation-date="02/23/2024 08:30:56" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a629c478ab9c24568829ceb1905ddba06306" cid="PROP014" name="registroMedico" creation-date="03/01/2024 08:34:58" property-ref="2d6908585c4f4b94adf928f018f8fe69" />
+              <attribute id="af54d48635378440bb1e4d9a11b348a5d874" cid="PROP015" name="especialidad" creation-date="03/01/2024 08:35:26" property-ref="21f4a45840c24641b17317bf53ce2313" />
+            </attributes>
+            <operations>
+              <operation id="o4773d87609604a6096099b9ae7c667ab999" cid="OP009" name="Medico" creation-date="03/01/2024 10:37:18" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p6909373339074f098908303304fa6b89" name="registroMedico" type="Integer" type-id="Uml.Integer" creation-date="03/01/2024 10:37:18">
+                    <tagged-values>
+                      <tagged-value id="tved1f2bd9104e4a13824e8cb7344a6243" name="set_registroMedico" type="reference" multiple="false" hidden="false" ref="2d6908585c4f4b94adf928f018f8fe69" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p046008c46bae472e863d471f1fe0b63d" name="especialidad" type="(Enum Especialidades)" type-id="(Enum Especialidades)" creation-date="03/01/2024 10:37:18">
+                    <tagged-values>
+                      <tagged-value id="tve765d61b9b3147fa9495b43d2df219e0" name="set_especialidad" type="reference" multiple="false" hidden="false" ref="21f4a45840c24641b17317bf53ce2313" />
+                    </tagged-values>
+                  </parameter>
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="oca72100913414b5c9f143566f70526d3728" cid="OP021" name="GetRegistroMedico" creation-date="03/01/2024 10:41:46" type="Integer" type-id="Uml.Integer" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="oeab80b9ea4e34b0f8885533505500fd3728" cid="OP022" name="SetRegistroMedico" creation-date="03/01/2024 10:41:46" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pf5071b95a3bd48dfa2440873c2e27c78" name="registroMedico" type="Integer" type-id="Uml.Integer" creation-date="03/01/2024 10:41:46" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o3a0de62c8ac94615b1bf89a851501d9b728" cid="OP023" name="GetEspecialidad" creation-date="03/01/2024 10:41:46" type="(Enum Especialidades)" type-id="(Enum Especialidades)" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="ob04994d346054a49a1fe26db63396994728" cid="OP024" name="SetEspecialidad" creation-date="03/01/2024 10:41:46" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p9cb112f7487842daa833c6f8ea2ecbd0" name="especialidad" type="(Enum Especialidades)" type-id="(Enum Especialidades)" creation-date="03/01/2024 10:41:46" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o05e87c3ea519481098651e2dc061a326761" cid="OP025" name="GetRegistroMedico" creation-date="03/01/2024 10:41:52" type="Integer" type-id="Uml.Integer" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="oa1190bdeec7d43cb9cb5b2ad6cf1de17761" cid="OP026" name="SetRegistroMedico" creation-date="03/01/2024 10:41:52" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pacb4a6bb892848938de9a67b7a1fc7ac" name="registroMedico" type="Integer" type-id="Uml.Integer" creation-date="03/01/2024 10:41:52" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="ocbdbe140d0cf444da4a3f33db2aa9c1f761" cid="OP027" name="GetEspecialidad" creation-date="03/01/2024 10:41:52" type="(Enum Especialidades)" type-id="(Enum Especialidades)" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="ofd516c3417ba4851824fe23306871685761" cid="OP028" name="SetEspecialidad" creation-date="03/01/2024 10:41:52" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="paf2185aa6ef544c6ba720e7f2dd1a901" name="especialidad" type="(Enum Especialidades)" type-id="(Enum Especialidades)" creation-date="03/01/2024 10:41:52" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+            </operations>
+          </item>
+          <item id="2e91adf1767c4cf4889b1f6d15089ca6" cid="PROP011" type="property" name="apellidos" owner="af826faa93e343a08e0990c96d0bee88" creation-date="03/01/2024 08:30:10" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="c943a066b2db4abb86cfcf2f6cc8f6b5" cid="PROP010" type="property" name="nombres" owner="af826faa93e343a08e0990c96d0bee88" creation-date="03/01/2024 08:29:46" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="fc6c7c726b5841af8537440fbdf3932b" cid="PROP009" type="property" name="id" owner="af826faa93e343a08e0990c96d0bee88" creation-date="03/01/2024 08:29:14" visibility="private">
+            <structural-feature type="BigInteger" type-id="Uml.BigInteger" />
+          </item>
+          <item id="1f06f90a01b742b8a0179126c2f0fbc3" cid="PKG001" type="package" name="entities" creator="" creation-date="02/23/2024 08:30:31" visibility="undefined">
+            <owned-items />
+          </item>
+          <item id="6a8958e767b145a185b03abf30163871" cid="C003" type="class" name="Paciente" owner="1f06f90a01b742b8a0179126c2f0fbc3" creation-date="03/01/2024 08:01:37">
+            <owned-items />
+            <attributes>
+              <attribute id="a05ddc1a0e7964c60a3e031950a23957a67" cid="PROP016" name="tipoSangre" creation-date="03/01/2024 08:37:16" property-ref="d49ade6e2ba74c479050eb90d77ba41d" />
+              <attribute id="a09dcbe296d7246e2965bd7cb20a4e5e4171" cid="PROP017" name="email" creation-date="03/01/2024 08:38:08" property-ref="5bffc04ec56d4877b3ea556dd6d8ba7c" />
+              <attribute id="af5e2ebffec7a4c1e823b57b5b6d92f8a923" cid="PROP018" name="celular" creation-date="03/01/2024 08:38:38" property-ref="7f24e0226b9549e8b718debd67eaf903" />
+              <attribute id="a7526da553f874a08a57dfcf81b1dbd1b483" cid="PROP019" name="fechaNacimiento" creation-date="03/01/2024 08:39:00" property-ref="f41506a5308146deb3d4acd137e0865c" />
+              <attribute id="a8b22a242f5094dbd8544a0c688fefbef652" cid="PROP020" name="altura" creation-date="03/01/2024 08:39:15" property-ref="da03e7b55ae44a238e72455bb734fd61" />
+              <attribute id="ad107676d01bf431391894a07ea2d63e4772" cid="PROP021" name="peso" creation-date="03/01/2024 08:39:23" property-ref="38ceaec57fec44178405919e0246570c" />
+              <attribute id="ab1fef4e772924e44837e5789ddc98312972" cid="PROP022" name="factorRH" creation-date="03/01/2024 08:39:35" property-ref="28e1b2a1c7024da7a98383b7c850cc7c" />
+            </attributes>
+            <operations>
+              <operation id="o387907ecc3d34e58b63da731db4999da654" cid="OP010" name="Paciente" creation-date="03/01/2024 10:37:25" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pffede48a619b49ff9c7329c68f4acb4d" name="tipoSangre" type="(Enum Tipo Sangre)" type-id="(Enum Tipo Sangre)" creation-date="03/01/2024 10:37:25">
+                    <tagged-values>
+                      <tagged-value id="tv91260bdf8a5a4d49ae66ae0da5c75387" name="set_tipoSangre" type="reference" multiple="false" hidden="false" ref="d49ade6e2ba74c479050eb90d77ba41d" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p56e0da38a8b44954a58d770aeb1a5195" name="email" type="String" type-id="Uml.String" creation-date="03/01/2024 10:37:25">
+                    <tagged-values>
+                      <tagged-value id="tv00c089aa378f47b796756d20a5666df1" name="set_email" type="reference" multiple="false" hidden="false" ref="5bffc04ec56d4877b3ea556dd6d8ba7c" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p7793886a1dc64158b5127d1af85b1c9f" name="celular" type="BigInteger" type-id="Uml.BigInteger" creation-date="03/01/2024 10:37:25">
+                    <tagged-values>
+                      <tagged-value id="tv3812291e76ce422eb75355726175456d" name="set_celular" type="reference" multiple="false" hidden="false" ref="7f24e0226b9549e8b718debd67eaf903" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="peaabc5ee82a94fd5bf58d75f633a459e" name="fechaNacimiento" type="DateTime" type-id="Uml.DateTime" creation-date="03/01/2024 10:37:25">
+                    <tagged-values>
+                      <tagged-value id="tvad0306142ee3495ba03e3f61f8b0a8aa" name="set_fechaNacimiento" type="reference" multiple="false" hidden="false" ref="f41506a5308146deb3d4acd137e0865c" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p6ddac22479364476a42dc6a373f96136" name="altura" type="Real" type-id="Uml.Real" creation-date="03/01/2024 10:37:25">
+                    <tagged-values>
+                      <tagged-value id="tvace4a4e0cd0a4875a3cacd6a496c796c" name="set_altura" type="reference" multiple="false" hidden="false" ref="da03e7b55ae44a238e72455bb734fd61" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p4804c7c000e049aaab281fb9fcf0533d" name="peso" type="Real" type-id="Uml.Real" creation-date="03/01/2024 10:37:25">
+                    <tagged-values>
+                      <tagged-value id="tv590f9bd9cefe4e3fb66ea8084683a42f" name="set_peso" type="reference" multiple="false" hidden="false" ref="38ceaec57fec44178405919e0246570c" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="pff313d7a24d1410fa96463036bb15891" name="factorRh" type="Char" type-id="Uml.Char" creation-date="03/01/2024 10:37:25">
+                    <tagged-values>
+                      <tagged-value id="tvf8fc0d2845ea48fd96d05ded63da5318" name="set_factorRh" type="reference" multiple="false" hidden="false" ref="28e1b2a1c7024da7a98383b7c850cc7c" />
+                    </tagged-values>
+                  </parameter>
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o335612b5c0354e5aa2fcdd920865fde9761" cid="OP029" name="GetTipoSangre" creation-date="03/01/2024 10:41:52" type="(Enum Tipo Sangre)" type-id="(Enum Tipo Sangre)" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o32e218cf905a444fbecbbe4947da9e28761" cid="OP030" name="SetTipoSangre" creation-date="03/01/2024 10:41:52" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p1abb922d78c04bb396e0b9d9f9399791" name="tipoSangre" type="(Enum Tipo Sangre)" type-id="(Enum Tipo Sangre)" creation-date="03/01/2024 10:41:52" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="ofe0835f7c4a842c8b806283b5ff9684e761" cid="OP031" name="GetEmail" creation-date="03/01/2024 10:41:52" type="String" type-id="Uml.String" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o276b0d1a5cda4c9abb4bdd56df64e917761" cid="OP032" name="SetEmail" creation-date="03/01/2024 10:41:52" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p55e8761de3994455b0f64bf73acd5a7d" name="email" type="String" type-id="Uml.String" creation-date="03/01/2024 10:41:52" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o6ad6be27e7664f5799b8400e1db0e445761" cid="OP033" name="GetCelular" creation-date="03/01/2024 10:41:52" type="BigInteger" type-id="Uml.BigInteger" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o87f430de295d4e71b56355cfe0334fb6761" cid="OP034" name="SetCelular" creation-date="03/01/2024 10:41:52" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p58f68fb171914863bc91cc2b38c805d3" name="celular" type="BigInteger" type-id="Uml.BigInteger" creation-date="03/01/2024 10:41:52" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o9329328df32046d1953bc770aa618460761" cid="OP035" name="GetFechaNacimiento" creation-date="03/01/2024 10:41:52" type="DateTime" type-id="Uml.DateTime" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o39c073e19da94da3b07dfdbb14d6927b761" cid="OP036" name="SetFechaNacimiento" creation-date="03/01/2024 10:41:52" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pb6213b2e717245d589ae3498940fcca8" name="fechaNacimiento" type="DateTime" type-id="Uml.DateTime" creation-date="03/01/2024 10:41:52" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o2be32380962b447daff8048d9004eb7f761" cid="OP037" name="GetAltura" creation-date="03/01/2024 10:41:52" type="Real" type-id="Uml.Real" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o3d3c6ccddeef445fb078d0e56d2b8c27761" cid="OP038" name="SetAltura" creation-date="03/01/2024 10:41:52" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p5870198ebde34333a2efa6d271aed5d9" name="altura" type="Real" type-id="Uml.Real" creation-date="03/01/2024 10:41:52" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="oa5edfdbc76164e50a45025b68ae9b5b2761" cid="OP039" name="GetPeso" creation-date="03/01/2024 10:41:52" type="Real" type-id="Uml.Real" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o74602e730a1744dd8d29b581808246b2761" cid="OP040" name="SetPeso" creation-date="03/01/2024 10:41:52" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pa34982fbf457464a872ac306ac79d865" name="peso" type="Real" type-id="Uml.Real" creation-date="03/01/2024 10:41:52" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o2b53fbccac994e85abc175b15cb04415761" cid="OP041" name="GetFactorRH" creation-date="03/01/2024 10:41:52" type="Char" type-id="Uml.Char" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o16ceff815f314445b1b315a991e1932b761" cid="OP042" name="SetFactorRH" creation-date="03/01/2024 10:41:52" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p77a51a6979214070adc8d552cad4940f" name="factorRH" type="Char" type-id="Uml.Char" creation-date="03/01/2024 10:41:52" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+            </operations>
+          </item>
+          <item id="7f24e0226b9549e8b718debd67eaf903" cid="PROP018" type="property" name="celular" owner="6a8958e767b145a185b03abf30163871" creation-date="03/01/2024 08:38:38" visibility="private">
+            <structural-feature type="BigInteger" type-id="Uml.BigInteger" />
+          </item>
+          <item id="da03e7b55ae44a238e72455bb734fd61" cid="PROP020" type="property" name="altura" owner="6a8958e767b145a185b03abf30163871" creation-date="03/01/2024 08:39:15" visibility="private">
+            <structural-feature type="Real" type-id="Uml.Real" />
+          </item>
+          <item id="7d5bc3b3a91d475d9865bda0618403e4" cid="ELEM003" type="universal-connector" creation-date="03/01/2024 10:32:27" to="1f06f90a01b742b8a0179126c2f0fbc3">
+            <connector />
+          </item>
+          <item id="d49ade6e2ba74c479050eb90d77ba41d" cid="PROP016" type="property" name="tipoSangre" owner="6a8958e767b145a185b03abf30163871" creation-date="03/01/2024 08:37:16" visibility="private">
+            <structural-feature type="(Enum Tipo Sangre)" type-id="(Enum Tipo Sangre)" />
+          </item>
+          <item id="94ebdaec2c44403881fd678bfeb33993" cid="PROP012" type="property" name="numeroIdentificacion" owner="af826faa93e343a08e0990c96d0bee88" creation-date="03/01/2024 08:30:28" visibility="private">
+            <structural-feature type="BigInteger" type-id="Uml.BigInteger" />
+          </item>
+          <item id="f41506a5308146deb3d4acd137e0865c" cid="PROP019" type="property" name="fechaNacimiento" owner="6a8958e767b145a185b03abf30163871" creation-date="03/01/2024 08:39:00" visibility="private">
+            <structural-feature type="DateTime" type-id="Uml.DateTime" />
+          </item>
+          <item id="982fee362b2445cda0809d7020b77adb" cid="ELEM006" type="universal-connector" creation-date="03/01/2024 10:39:54" from="af826faa93e343a08e0990c96d0bee88" to="1f06f90a01b742b8a0179126c2f0fbc3">
+            <connector />
+          </item>
+          <item id="5bffc04ec56d4877b3ea556dd6d8ba7c" cid="PROP017" type="property" name="email" owner="6a8958e767b145a185b03abf30163871" creation-date="03/01/2024 08:38:08" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="38ceaec57fec44178405919e0246570c" cid="PROP021" type="property" name="peso" owner="6a8958e767b145a185b03abf30163871" creation-date="03/01/2024 08:39:23" visibility="private">
+            <structural-feature type="Real" type-id="Uml.Real" />
+          </item>
+          <item id="b67cc40d4ca44bd498a1143d9ab7f5be" cid="PROP013" type="property" name="tipoIdentificacion" owner="af826faa93e343a08e0990c96d0bee88" creation-date="03/01/2024 08:31:14" visibility="private">
+            <structural-feature type="(Enum Tipo identificacion)" type-id="(Enum Tipo identificacion)" />
+          </item>
+          <item id="0481ba94b0d846399d7faa82095fddc0" cid="C001" type="class" name="Medico" style-class="Flat Cyan" creator="" creation-date="02/23/2024 08:28:15" visibility="undefined">
+            <style class="Flat Cyan" />
+          </item>
+          <item id="8727e7a10d8e47dcb65256a906b936f9" cid="PROP023" type="property" name="procedimientos" owner="6c26fe7fa28a4a2090e6b1b6cce9c914" creation-date="03/01/2024 10:33:23" visibility="private">
+            <structural-feature multiplicity="*" type="String" type-id="Uml.String" />
+          </item>
+          <item id="21f4a45840c24641b17317bf53ce2313" cid="PROP015" type="property" name="especialidad" owner="e210a7826fa9409ab6bee943db5a1ce8" creation-date="03/01/2024 08:35:26" visibility="private">
+            <structural-feature type="(Enum Especialidades)" type-id="(Enum Especialidades)" />
+          </item>
+          <item id="207119eab38d45dda3821400e04c035b" cid="GNR002" type="generalization" owner="1f06f90a01b742b8a0179126c2f0fbc3" creation-date="03/01/2024 08:27:38" from="6a8958e767b145a185b03abf30163871" to="af826faa93e343a08e0990c96d0bee88" visibility="package" />
+          <item id="02a45b58087344438028ffa6b0f2b05f" cid="GNR003" type="generalization" owner="1f06f90a01b742b8a0179126c2f0fbc3" creation-date="03/01/2024 10:35:37" from="6c26fe7fa28a4a2090e6b1b6cce9c914" to="af826faa93e343a08e0990c96d0bee88" visibility="package" />
+          <item id="af826faa93e343a08e0990c96d0bee88" cid="C004" type="class" name="Usuario" owner="1f06f90a01b742b8a0179126c2f0fbc3" creation-date="03/01/2024 08:22:03">
+            <owned-items />
+            <attributes>
+              <attribute id="a2c69cb15d0d947248360745963d49b01133" cid="PROP009" name="id" creation-date="03/01/2024 08:29:14" property-ref="fc6c7c726b5841af8537440fbdf3932b" />
+              <attribute id="af0fe88beab2b46cfa0d7769313b0d812598" cid="PROP010" name="nombres" creation-date="03/01/2024 08:29:46" property-ref="c943a066b2db4abb86cfcf2f6cc8f6b5" />
+              <attribute id="acb07cee107bf471e856bbc243ef2cc54688" cid="PROP011" name="apellidos" creation-date="03/01/2024 08:30:10" property-ref="2e91adf1767c4cf4889b1f6d15089ca6" />
+              <attribute id="a61242f92a1bf4b038c660b8b062db641159" cid="PROP012" name="numeroIdentificacion" creation-date="03/01/2024 08:30:28" property-ref="94ebdaec2c44403881fd678bfeb33993" />
+              <attribute id="ab145f68cd3d440e0a9db014bd7c07238439" cid="PROP013" name="tipoIdentificacion" creation-date="03/01/2024 08:31:14" property-ref="b67cc40d4ca44bd498a1143d9ab7f5be" />
+            </attributes>
+            <operations>
+              <operation id="o5fb54f2199e1440a88074995e60eee67115" cid="OP008" name="Usuario" creation-date="03/01/2024 10:36:56" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pe2e055af40274ba1ab80dcc32962097f" name="id" type="BigInteger" type-id="Uml.BigInteger" creation-date="03/01/2024 10:36:56">
+                    <tagged-values>
+                      <tagged-value id="tv723ee3503e8f4850a0bbcd3acb5c8ded" name="set_id" type="reference" multiple="false" hidden="false" ref="fc6c7c726b5841af8537440fbdf3932b" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p4e14551be88a4e1ca10a6cda97482591" name="nombres" type="String" type-id="Uml.String" creation-date="03/01/2024 10:36:56">
+                    <tagged-values>
+                      <tagged-value id="tv2312152de37242c9875b478cbdc5a91a" name="set_nombres" type="reference" multiple="false" hidden="false" ref="c943a066b2db4abb86cfcf2f6cc8f6b5" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p920b7f6e55344081997ad2fc03473027" name="apellidos" type="String" type-id="Uml.String" creation-date="03/01/2024 10:36:56">
+                    <tagged-values>
+                      <tagged-value id="tvdcb0f274fa434338992b3d8664bf6976" name="set_apellidos" type="reference" multiple="false" hidden="false" ref="2e91adf1767c4cf4889b1f6d15089ca6" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p2cd9114bf0b446ddb9fde11e66bfb6e0" name="numeroIdentificacion" type="BigInteger" type-id="Uml.BigInteger" creation-date="03/01/2024 10:36:56">
+                    <tagged-values>
+                      <tagged-value id="tvc3b781a2f43a432c918c7c1b6696f7fe" name="set_numeroIdentificacion" type="reference" multiple="false" hidden="false" ref="94ebdaec2c44403881fd678bfeb33993" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p1ef5aa28cf9649e7a384f6bb781ac576" name="tipoIdentificacion" type="(Enum Tipo identificacion)" type-id="(Enum Tipo identificacion)" creation-date="03/01/2024 10:36:56">
+                    <tagged-values>
+                      <tagged-value id="tvd0a911bcb6724a898f95698d42ec5a7f" name="set_tipoIdentificacion" type="reference" multiple="false" hidden="false" ref="b67cc40d4ca44bd498a1143d9ab7f5be" />
+                    </tagged-values>
+                  </parameter>
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="odff4a4fb84114ed9871b50d02a0cd03a153" cid="OP011" name="GetTipoIdentificacion" creation-date="03/01/2024 10:39:06" type="(Enum Tipo identificacion)" type-id="(Enum Tipo identificacion)" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="ob95b0cc4f8eb4b88a25ced7c2f4e144e153" cid="OP012" name="SetTipoIdentificacion" creation-date="03/01/2024 10:39:06" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p37481ec129e5448382f9c6d54b024e70" name="tipoIdentificacion" type="(Enum Tipo identificacion)" type-id="(Enum Tipo identificacion)" creation-date="03/01/2024 10:39:06" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="odf7d56a199354899b1bfda4f80b4b2f2153" cid="OP013" name="GetId" creation-date="03/01/2024 10:39:06" type="BigInteger" type-id="Uml.BigInteger" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o90bf23e0063244f9996cf09a24984d06153" cid="OP014" name="SetId" creation-date="03/01/2024 10:39:06" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p1a047b3ed3fc4fff9360d408c0245e30" name="id" type="BigInteger" type-id="Uml.BigInteger" creation-date="03/01/2024 10:39:06" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o86cacf3846a54dc1990bce82064d5421153" cid="OP015" name="GetNombres" creation-date="03/01/2024 10:39:06" type="String" type-id="Uml.String" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o0bc83597accf43a493d402407f98bdd8153" cid="OP016" name="SetNombres" creation-date="03/01/2024 10:39:06" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pa524a0a4179544c0a7a1626d3f115792" name="nombres" type="String" type-id="Uml.String" creation-date="03/01/2024 10:39:06" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o2557f34b5d1f49f0a4a23ac4fe8e8f55153" cid="OP017" name="GetApellidos" creation-date="03/01/2024 10:39:06" type="String" type-id="Uml.String" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o758b9ef0a2304bba92caa27f58fa4b94153" cid="OP018" name="SetApellidos" creation-date="03/01/2024 10:39:06" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pc6f122668ac246a99f4b774a992d7271" name="apellidos" type="String" type-id="Uml.String" creation-date="03/01/2024 10:39:06" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="oec08ea724be048df905c2f803c9ab147153" cid="OP019" name="GetNumeroIdentificacion" creation-date="03/01/2024 10:39:06" type="BigInteger" type-id="Uml.BigInteger" visibility="public">
+                <stereotypes>
+                  <stereotype>getter</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="oefb0288d2c0d45db94d89f500feec905153" cid="OP020" name="SetNumeroIdentificacion" creation-date="03/01/2024 10:39:06" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p68e262f98ba74a67a6c4a833c3a1b2c9" name="numeroIdentificacion" type="BigInteger" type-id="Uml.BigInteger" creation-date="03/01/2024 10:39:06" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>setter</stereotype>
+                </stereotypes>
+              </operation>
+            </operations>
+          </item>
+          <item id="2d6908585c4f4b94adf928f018f8fe69" cid="PROP014" type="property" name="registroMedico" owner="e210a7826fa9409ab6bee943db5a1ce8" creation-date="03/01/2024 08:34:58" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+        </abstract-items>
+        <layer id="2609c6a770f94cfabfce2072fd6cbfc3" name="Default" visible="true" enabled="true" locked="false">
+          <item id="1f06f90a01b742b8a0179126c2f0fbc3" iid="4d5511f8c4214887867cd56b53ac1cd9" creation-date="02/23/2024 08:30:31" order-index="0" type="entity">
+            <layout ax="128" ay="-32" awidth="1095" aheight="1190" x="128" y="-32" width="1095" height="1190" expanded="128,-32,1095,1190" collapsed="0,0,0,0" />
+            <package name-in-body="false" />
+          </item>
+          <item id="6a8958e767b145a185b03abf30163871" iid="47c886daa7c64cad83abba033d7f0fe5" container="1f06f90a01b742b8a0179126c2f0fbc3" container-iid="4d5511f8c4214887867cd56b53ac1cd9" show-fields="true" creation-date="03/01/2024 08:01:37" order-index="2" type="entity">
+            <layout ax="739" ay="557" awidth="348" aheight="538" x="739" y="557" width="212" height="538" />
+            <classifier />
+            <class />
+          </item>
+          <item id="af826faa93e343a08e0990c96d0bee88" iid="ffa65a05c3fb4c1aae54cdb4789caee4" container="1f06f90a01b742b8a0179126c2f0fbc3" container-iid="4d5511f8c4214887867cd56b53ac1cd9" show-fields="true" creation-date="03/01/2024 08:22:03" order-index="3" type="entity">
+            <layout ax="475" ay="65" awidth="342" aheight="434" x="475" y="65" width="287" height="434" />
+            <classifier />
+            <class />
+          </item>
+          <item id="e210a7826fa9409ab6bee943db5a1ce8" iid="a4998235dd0b4f3d916c7a0a63b85467" container="1f06f90a01b742b8a0179126c2f0fbc3" container-iid="4d5511f8c4214887867cd56b53ac1cd9" show-fields="true" creation-date="02/23/2024 08:30:56" order-index="1" type="entity">
+            <layout ax="233" ay="557" awidth="242" aheight="434" x="233" y="557" width="242" height="434" />
+            <classifier />
+            <class />
+          </item>
+          <item id="50b0b132aed4486094ba42b8a73a31e8" iid="2f3bcfe63118411183000508509511a9" container="1f06f90a01b742b8a0179126c2f0fbc3" container-iid="4d5511f8c4214887867cd56b53ac1cd9" creation-date="03/01/2024 08:24:52" order-index="5" type="entity">
+            <layout ax="193" ay="127" awidth="129" aheight="93" x="193" y="267" width="107" height="93" />
+          </item>
+          <item id="63269f4f92d441b8b1cd0336ce2cf982" iid="6abcb764b0cc419fb343dd18df760516" container="1f06f90a01b742b8a0179126c2f0fbc3" container-iid="4d5511f8c4214887867cd56b53ac1cd9" creation-date="03/01/2024 08:23:40" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="354" y1="557" x2="475" y2="281" start-border-pos="0.125" end-border-pos="0.8753918495297806" start-local-pos="106" end-local-pos="79.5" name-position="0,20">
+              <points>
+                <point x="354" y="557" />
+                <point x="351" y="281" />
+                <point x="475" y="281" />
+              </points>
+            </layout>
+            <relation from="e210a7826fa9409ab6bee943db5a1ce8" from-iid="a4998235dd0b4f3d916c7a0a63b85467" to="af826faa93e343a08e0990c96d0bee88" to-iid="ffa65a05c3fb4c1aae54cdb4789caee4" />
+          </item>
+          <item id="6c26fe7fa28a4a2090e6b1b6cce9c914" iid="6866d008505747c78568bc04a2d0a7bf" container="1f06f90a01b742b8a0179126c2f0fbc3" container-iid="4d5511f8c4214887867cd56b53ac1cd9" show-fields="true" creation-date="03/01/2024 10:33:14" order-index="7" type="entity">
+            <layout ax="995" ay="249" awidth="180" aheight="159" x="995" y="249" width="180" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="207119eab38d45dda3821400e04c035b" iid="6d661615cf3c4a7db57cdd24f8de0356" container="1f06f90a01b742b8a0179126c2f0fbc3" container-iid="4d5511f8c4214887867cd56b53ac1cd9" creation-date="03/01/2024 08:27:38" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="918" y1="557" x2="817" y2="281" start-border-pos="0.1284246575342466" end-border-pos="0.374608151614666" start-local-pos="75" end-local-pos="79.5" name-position="32,-19">
+              <points>
+                <point x="918" y="557" />
+                <point x="919" y="284" />
+                <point x="920" y="282" />
+                <point x="817" y="281" />
+              </points>
+            </layout>
+            <relation from="6a8958e767b145a185b03abf30163871" from-iid="47c886daa7c64cad83abba033d7f0fe5" to="af826faa93e343a08e0990c96d0bee88" to-iid="ffa65a05c3fb4c1aae54cdb4789caee4" />
+          </item>
+          <item id="02a45b58087344438028ffa6b0f2b05f" iid="feb04719e16d45f7abcb63542d892318" container="1f06f90a01b742b8a0179126c2f0fbc3" container-iid="4d5511f8c4214887867cd56b53ac1cd9" creation-date="03/01/2024 10:35:37" order-index="8" type="relation">
+            <layout line-style="oblique" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1085" y1="249" x2="817" y2="65" start-border-pos="0.125" end-border-pos="0.25" start-local-pos="90" end-local-pos="0.5" name-position="-6,-17">
+              <points>
+                <point x="1085" y="249" />
+                <point x="1085" y="67.5" />
+                <point x="817" y="65" />
+              </points>
+            </layout>
+            <relation from="6c26fe7fa28a4a2090e6b1b6cce9c914" from-iid="6866d008505747c78568bc04a2d0a7bf" to="af826faa93e343a08e0990c96d0bee88" to-iid="ffa65a05c3fb4c1aae54cdb4789caee4" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

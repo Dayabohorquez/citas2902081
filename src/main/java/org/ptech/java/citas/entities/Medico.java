@@ -1,86 +1,68 @@
 package org.ptech.java.citas.entities;
 
-public class Medico {
+import org.ptech.java.citas.entities.enums.Especialidad;
+import org.ptech.java.citas.entities.enums.TipoDocumento;
+
+//Clases que heredan:
+//-Claseshijas
+//-subclases
+//-Clases detalle
+//-Clases especificas
+
+public class Medico extends Usuario{
 
     //POR REGLA GENERAL:
     //Los atribustos de una clase 
     //deben ser private
-    private int id;
-    private String nombres;
-    private String apellidos; 
-    private TipoDocumento tipoDocumento;
-    private Long numeroIdentificación;       
     private Long registroMedico; 
     private Especialidad especialidad;
 
-    //Consultor por defecto
-    public Medico() {
+
+    public Medico(int id, 
+                    String nombres, 
+                    String apellidos, 
+                    TipoDocumento tipoDocumento, 
+                    Long numeroIdentificación) {
+
+    //Si quieres instanciar un medico
+    //Tambien debes instanciar el usuario
+    //super en el constructuctor invoca(llama, ejecuta)
+    //al constructor de la clase padre(Super Clase)
+    //debe ser lo primero que aperezca en el 
+    //constructor de la clase hija 
+        super(id, nombres, apellidos, tipoDocumento, numeroIdentificación);
+    //a continuaction inicializamos
+    //atributos propios de la clase hija
     }
-    
-    //constructor parametrizado
+
+
     public Medico(int id, String nombres, String apellidos, TipoDocumento tipoDocumento, Long numeroIdentificación,
             Long registroMedico, Especialidad especialidad) {
-        this.id = id;
-        this.nombres = nombres;
-        this.apellidos = apellidos;
-        this.tipoDocumento = tipoDocumento;
-        this.numeroIdentificación = numeroIdentificación;
+        super(id, nombres, apellidos, tipoDocumento, numeroIdentificación);
         this.registroMedico = registroMedico;
         this.especialidad = especialidad;
     }
 
-    //Ecncapsulados getter y setter
-    //Getters y Setters 
-    //deben ser publicos
-    //Firma de un Getter:
-    //Tipo de dato de retorno:
-    // es el t.d del atributo 
-    // Nombre del metodo:
-    //      get seguido del nombre del atributo
-    // Parametros 0 
-    // retorna: El valor del atributo 
-    public String getNombres() {
-        //return sirve para
-        //retornar el valor
-        //al invocante
-        return this.nombres;
+
+    public Long getRegistroMedico() {
+        return registroMedico;
     }
 
-    //Setter: sirve para asignar
-    //un valor a un atributo privado 
-    //Firma de un setter:
-    // - Tipo de dato de retorno: void
-    // - Nombre: set seguido del nombre del atributo 
-    // - Parametros: 1, input del valor a asignar
-    //                al atributo
-    // - Retorna: nada
-    public void setNombres(String nombres) {
-        this.nombres = nombres;
+
+    public void setRegistroMedico(Long registroMedico) {
+        this.registroMedico = registroMedico;
     }
 
-    public String getApellidos() {
-        return apellidos;
+
+    public Especialidad getEspecialidad() {
+        return especialidad;
     }
 
-    public void setApellidos(String apellidos) {
-        this.apellidos = apellidos;
-    }
 
-    public TipoDocumento getTipoDocumento() {
-        return tipoDocumento;
-    }
-
-    public void setTipoDocumento(TipoDocumento tipoDocumento) {
-        this.tipoDocumento = tipoDocumento;
-    }
-
-    public Long getNumeroIdentificación() {
-        return numeroIdentificación;
-    }
-
-    public void setNumeroIdentificación(Long numeroIdentificación) {
-        this.numeroIdentificación = numeroIdentificación;
+    public void setEspecialidad(Especialidad especialidad) {
+        this.especialidad = especialidad;
     }
 
     
+
 }
