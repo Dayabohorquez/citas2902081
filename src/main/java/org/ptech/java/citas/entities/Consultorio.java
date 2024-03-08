@@ -4,7 +4,19 @@ public class Consultorio {
     private int id;
     private String direccion;
     private Long numero;
+
     
+    
+    @Override
+    public String toString() {
+        return "Consultorio [id=" + 
+                            id + 
+                            ", direccion=" + 
+                            direccion + 
+                            ", numero=" + 
+                            numero + "]";
+    }
+
     //Consultor por defecto
     public Consultorio() {
     }

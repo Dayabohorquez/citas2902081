@@ -6,7 +6,7 @@ import org.ptech.java.citas.entities.enums.TipoDocumento;
 //Superclase
 //Clase maestra 
 //Clase base
-public abstract class Usuario {
+public  class Usuario {
 
     //atributos a heredarse
     //deben ser protected
@@ -15,13 +15,31 @@ public abstract class Usuario {
     protected String apellidos; 
     protected TipoDocumento tipoDocumento;
     protected Long numeroIdentificación;
+
+
+    //sobreescribir el metodo toString
     
+
     public Usuario(int id, String nombres, String apellidos, TipoDocumento tipoDocumento, Long numeroIdentificación) {
         this.id = id;
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.tipoDocumento = tipoDocumento;
         this.numeroIdentificación = numeroIdentificación;
+    }
+
+    @Override
+    public String toString() {
+        return "Usuario [id=" + 
+                        id + 
+                        ", nombres=" + 
+                        nombres + 
+                        ", apellidos=" + 
+                        apellidos + 
+                        ", tipoDocumento=" + 
+                        tipoDocumento + 
+                        ", numeroIdentificación=" + 
+                        numeroIdentificación + "]";
     }
 
     public int getId() {

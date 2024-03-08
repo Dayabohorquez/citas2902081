@@ -14,6 +14,35 @@ public class Paciente extends Usuario{
     private TipoSangre tipoSangre;
     private char factorRH;
 
+    
+    @Override
+    public String toString() {
+        return "Paciente [email=" + 
+                        email + 
+                        ", celular=" + 
+                        celular + 
+                        ", fechaNacimiento=" + 
+                        fechaNacimiento + 
+                        ", altura=" + 
+                        altura + 
+                        ", peso=" + 
+                        peso + 
+                        ", tipoSangre=" + 
+                        tipoSangre + 
+                        ", factorRH=" + 
+                        factorRH + 
+                        ", id: " + 
+                        super.id +
+                        ", nombre: " +
+                        super.nombres + 
+                        ", apellido: " +
+                        super.apellidos +
+                        ", Tipo documento: " +
+                        super.tipoDocumento +
+                        ", Numero identificacion: " + 
+                        super.numeroIdentificación + "]";
+    }
+
     public Paciente(int id, 
                     String nombres, 
                     String apellidos, 
@@ -24,7 +53,7 @@ public class Paciente extends Usuario{
     }
 
     public Paciente(int id, String nombres, String apellidos, TipoDocumento tipoDocumento, Long numeroIdentificación,
-            String email, Long celular, LocalDate fechaNacimiento, Double altura, Double peso, TipoSangre tipoSangre,
+            String email, Long celular, LocalDate fechaNacimiento, Double altura, int i, TipoSangre tipoSangre,
             char factorRH) {
         super(id, nombres, apellidos, tipoDocumento, numeroIdentificación);
         this.email = email;
