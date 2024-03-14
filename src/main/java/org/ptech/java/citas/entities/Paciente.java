@@ -65,6 +65,7 @@ public class Paciente extends Usuario{
         this.factorRH = factorRH;
     }
 
+
     public String getEmail() {
         return email;
     }

@@ -4,7 +4,6 @@ import java.time.LocalDateTime;
 
 import org.ptech.java.citas.entities.Enfermero;
 import org.ptech.java.citas.entities.Medico;
-import org.ptech.java.citas.entities.Usuario;
 import org.ptech.java.citas.entities.enums.Especialidad;
 import org.ptech.java.citas.entities.enums.TipoDocumento;
 

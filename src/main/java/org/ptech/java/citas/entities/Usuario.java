@@ -1,12 +1,14 @@
 package org.ptech.java.citas.entities;
 
+import org.ptech.java.citas.entities.enums.Especialidad;
 import org.ptech.java.citas.entities.enums.TipoDocumento;
+import org.ptech.java.citas.entities.enums.TipoSangre;
 
 //Clase padre
 //Superclase
 //Clase maestra 
 //Clase base
-public  class Usuario {
+abstract class Usuario {
 
     //atributos a heredarse
     //deben ser protected
@@ -15,6 +17,12 @@ public  class Usuario {
     protected String apellidos; 
     protected TipoDocumento tipoDocumento;
     protected Long numeroIdentificación;
+    private Especialidad especialidad;
+    private Double altura;
+    private Double peso;
+    private TipoSangre tipoSangre;
+    private String email;
+    private char factorRH;
 
 
     //sobreescribir el metodo toString
@@ -80,7 +88,56 @@ public  class Usuario {
 
     public void setNumeroIdentificación(Long numeroIdentificación) {
         this.numeroIdentificación = numeroIdentificación;
-    } 
+    }
+
+    public Especialidad getEspecialidad() {
+        return especialidad;
+    }
+
+    public void setEspecialidad(Especialidad especialidad) {
+        this.especialidad = especialidad;
+    }
+
+    public Double getAltura() {
+        return altura;
+    }
+
+    public void setAltura(Double altura) {
+        this.altura = altura;
+    }
+
+    public Double getPeso() {
+        return peso;
+    }
+
+    public void setPeso(Double peso) {
+        this.peso = peso;
+    }
+
+    public TipoSangre getTipoSangre() {
+        return tipoSangre;
+    }
+
+    public void setTipoSangre(TipoSangre tipoSangre) {
+        this.tipoSangre = tipoSangre;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public char getFactorRH() {
+        return factorRH;
+    }
+
+    public void setFactorRH(char factorRH) {
+        this.factorRH = factorRH;
+    }
+
 
     
 }
