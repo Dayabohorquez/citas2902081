@@ -12,7 +12,7 @@ public class CitaEnfermeros extends Cita implements IAgendable {
     public String procesoRealizar;
 
 
-    public CitaEnfermeros(int id, LocalDateTime fecha, Paciente paciente2, Consultorio consultorio) {
+    public CitaEnfermeros(int id, LocalDateTime fecha, Paciente paciente2, int consultorio, EstadoCita agendada) {
         super(id, fecha, paciente2, consultorio);
     }
 

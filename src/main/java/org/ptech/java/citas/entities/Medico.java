@@ -16,6 +16,7 @@ public class Medico extends Usuario{
     //deben ser private
     private Long registroMedico; 
     private Especialidad especialidad;
+    public int getNombres;
 
     @Override
     public String toString() {

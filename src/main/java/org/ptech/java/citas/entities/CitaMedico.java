@@ -11,8 +11,8 @@ public class CitaMedico extends Cita implements IAgendable {
     EstadoCita estado;
     public String motivo;
 
-    public CitaMedico(int id, LocalDateTime fecha, Paciente paciente, Consultorio consultorio) {
-        super(id, fecha, paciente, consultorio);
+    public CitaMedico(int id, LocalDateTime fecha, Paciente paciente, int i, EstadoCita agendada) {
+        super(id, fecha, paciente, i);
         this.estado = EstadoCita.AGENDADA;
     }
 

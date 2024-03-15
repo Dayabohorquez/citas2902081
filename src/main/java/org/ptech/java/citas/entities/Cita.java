@@ -22,7 +22,7 @@ public class Cita {
     }
 
     //constructor parametrizado
-    public Cita(int id, LocalDateTime fecha, Paciente paciente2, Consultorio consultorio) {
+    public Cita(int id, LocalDateTime fecha, Paciente paciente2, int i) {
         this.id = id;
         this.fecha = fecha;
         this.consultorio = consultorio;
