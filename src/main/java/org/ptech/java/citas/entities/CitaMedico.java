@@ -9,6 +9,7 @@ public class CitaMedico extends Cita implements IAgendable {
 
     Medico medico;
     EstadoCita estado;
+    public String motivo;
 
     public CitaMedico(int id, LocalDateTime fecha, Paciente paciente, Consultorio consultorio) {
         super(id, fecha, paciente, consultorio);
